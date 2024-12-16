@@ -91,3 +91,9 @@ particlesJS('particles-js', {
     },
     retina_detect: true
 });
+
+// Example of resizing particles dynamically (if needed)
+window.addEventListener('resize', () => {
+    const particlesContainer = document.getElementById('particles-js');
+    particlesContainer.style.height = `${document.body.scrollHeight}px`;
+});

@@ -136,6 +136,13 @@ select {
     background-color: #111; /* Fallback background color */
 }
 
+.container {
+    position: relative; /* Ensure content is above the particles */
+    z-index: 1;
+    padding: 20px;
+    min-height: 100vh; /* Ensure content pushes page height */
+}
+
 html, body {
     min-height: 100%;
     margin: 0;
