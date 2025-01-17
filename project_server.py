@@ -16,7 +16,7 @@ os.environ['KAGGLE_USERNAME'] = 'jayeshrmohanani'
 os.environ['KAGGLE_KEY'] = '030582329579eb59561c5aeb1fd5f65e'
 
 # video_games_df = pd.read_csv("games-dataset/Video_Games_Sales_as_at_22_Dec_2016.csv")
-video_games_df = pd.read_csv("C:\\Users\jayes\OneDrive\Desktop\College\MSc\CHRIST Data Science\T2\Fullstack Web dev\CAC 2 - Project\games-dataset\Video_Games_Sales_as_at_22_Dec_2016.csv")
+video_games_df = pd.read_csv("C:\\Users\jayes\OneDrive\Desktop\College\MSc\CHRIST Data Science\T2\Fullstack Web dev\CAC 2 - Project\PlayNext\games-dataset\Video_Games_Sales_as_at_22_Dec_2016.csv")
 
 print(f"No. of records: {video_games_df.shape[0]}")
 video_games_df.head(5)
